@@ -1,0 +1,63 @@
+PHP é uma linguagem de programação para conversar com o servidor. 
+
+Inicio 1994: PHP 1.0
+    > Personal Home Page
+    > Funcionalidades simples para um site básico.
+    > Não tinha características de linguagem me si. 
+
+1997: PHP 2.0   
+    > Oficialmente nomeado PHP/FI 2.0
+    > Linguagem Standalone.
+    > Recursos Limitados.
+
+1998 : PHP 3.0
+    > Primeira Versão Colaborativa. 
+    > Características mais relacionadas a uma linguagem.
+    > Extension API.
+
+2000: PHP 4.0 
+    > Zend engine 1.0
+    > Melhoria de performace.
+    > Aumento da modularização
+    > Uso de super globais $_Get,$_POST,$_SESSION, etc.
+
+2004: PHP 5.0 há mais problemática. 
+    > Zend enfine 2.0
+    > Primeira versão com Orientação a objetos.
+    >PHP Data Objets (PDO);
+    > Operador de exponenciação
+    > Suporte a JSON
+    > Namespaces, closures. gabage collection, exceptions handling.
+    > Novo depurador(phpdb)
+
+2005 PHP 6.0
+    > Aumento da segurança e performance.
+    > Suporte nativo a unicode.
+    > Até existiram algumas versões.
+    > Nunca recebeu uma release ofocial. 
+
+2015: PHP 7.0
+    > Zend engine 3.0
+    > Perfonance até 9x maior
+    > Escape de códigos Unicode.
+    > Operador num Coalescing??
+    > Declaração escalar
+    > Operador scacesship <=>
+    > Classes anônimas
+    > Excessões mais modernas.
+    > Retorno de Void.
+    > Libsodiom
+    > Foreign funcion interface.
+
+2020: PHP 8.0
+    > Zend engine 4.0
+    > Just-in-Time compilation.
+    > Locale-independent, numer convertions.
+    > Named arguments
+    > Expressão match
+    > Operador nullsafe
+    > enumetions.
+    > Randonly properties.
+    > Fibers.
+
+JavaScript é uma linguagem irmã do PHP.

@@ -1,0 +1,13 @@
+Categorias dos tipos Primitivos.
+
+Escalares
+$sobrenome = " silva";   String
+$idade =  "34";          Int ou integer.   
+$peso =  "85.9";         double, float, real somente do 7 pra traz.   
+$casado = "true";        Boolean
+
+Compostos
+
+
+
+Especiais

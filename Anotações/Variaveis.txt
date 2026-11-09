@@ -1,0 +1,33 @@
+1 - Variável sempre começam com o símbolo $
+2 - O segundo pode ser letra ou o símbolo_
+3 - Aceita caracteres [a-z],[A-Z,][0-9] e [_]
+4 - Aceita caracteres da taleca ASCII a partir de 128.
+5 - Aceita caracteres acentuados como á,õ,ç
+6 - A linguagem é case sensitive em relação ais nomes.
+7 -  Nomes especiais como $this não podem ser usados. 
+
+Recomendações para dar nomes.
+
+1 - Teste das nomes claros e de fácil identificação;.
+2 - Evite nomes muito curtos ou muito longos.
+3 - defina um padrão e siga em todo o projeto.
+4 - Para Variável, dê preferência a letras minúsculas. 
+5 - Para Constantes, dê preferência a letras maiúsculoas.
+6 - Use camelCase para métodos e atributos.
+7 - Use SNALE_CASE para nomear contantes.
+
+Quatro formatos de Strings
+
+dougle quoted = "CURSO" . "PHP"
+single quoted = 
+Heredoc
+Nowdoc
+
+ o "." é o operador de concatenação
+
+ Sequencia de escapes.
+ \n nova linha
+ \t tabulação horizontal
+ \\ barra invertida
+ \$ sinal de cifrão
+ \u{} codepoint
