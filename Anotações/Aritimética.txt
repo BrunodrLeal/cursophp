@@ -1,0 +1,13 @@
+ o "." é um operador de concatenação. 
+ "+" é somente de adição; 
+ para Strings tem que usar o .
+  os PHP antes do 8 acontecia dele pegar os numeros e somar no 8 foi corrigido. 
+  ele tenta converter strings para numeros. 
+
+  Operadores Aritiméticos.
+    +  adição 
+    - subtração
+    * multiplicação 
+    / divisão real
+    % módulo divisão inteira. exemplo 5/2=2 resta 1. esse é o resultado. 
+    ** Exponenciação. 5 elevado a 2 = 25
