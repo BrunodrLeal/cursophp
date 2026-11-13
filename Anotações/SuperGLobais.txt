@@ -1,0 +1,28 @@
+Superglobais do PHP
+
+$_GET
+    pega os dados pela URL
+
+$_POST
+    Pega os dados pelos formulários
+
+$_REQUEST
+    pega os dados dos dois, url e formulários
+
+$_COOKIE
+    Ele salva variáveis dentro do navegador e deixa la por cerca de 2 dias.
+
+$_FILES
+    Se fizer upload de arquivos essa super global pega esses dados.
+
+$_SESSION
+    Essa SESSÂO permite que variaveis de sessão sejam utilizadas.
+
+$_ENV
+    VAriaveis de ambiente do servidor
+
+&_SERVER
+    Essa é a mais importante.
+
+&GLOBALS
+    Essa pega o dado de todas. 
