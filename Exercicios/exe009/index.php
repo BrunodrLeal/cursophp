@@ -24,14 +24,12 @@
             <h2>Resultado Final</h2>
             <?php 
             // calculos. 
-            $raizQuadrada = sqrt($numero);
-            $raizCubica = pow($numero, 1/3);
+            $rq = sqrt($numero);
+            $rc = pow($numero, 1/3);
 
-            echo "Analisando o <strong>número $numero</strong> temos:<br>" ;
-            
-            echo "A sua raiz quatrada é: <strong>$raizQuadrada</strong><br>";
-
-            echo "A sua raiz cúbica é: <strong>$raizCubica</strong>";
+            echo "<p>Analisando o <strong>número $numero</strong> temos:";
+            echo "<ul><li> A sua raiz quatrada é:<strong>" . number_format($rq, 3, ",", ".")."</strong></li>";
+            echo "<li>A sua raiz cúbica é: <strong>" . number_format($rc, 3, "," , ".") ."<strong>"."</ul>";
             ?>
 
     </section>

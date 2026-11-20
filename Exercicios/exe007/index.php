@@ -14,22 +14,21 @@
     ?>
     <main>
         <h1>Anatomia de uma Divisão</h1>
-        <form action="<?=$_SERVER['PHP_SELF']?>" method="get">
+        <form action="" method="get">
             <label for="d1">Dividendo</label>
-            <input type="number" name="d1" id="d1" value="<?=$dividendo?>">
+            <input type="number" name="d1" id="d1" min="0" value="<?=$dividendo?>">
             <label for="d2">Dividor</label>
-            <input type="number" name="d2" id="d2" value="<?=$divisor?>">
+            <input type="number" name="d2" id="d2" min="1" value="<?=$divisor?>">
             <input type="submit" value="Analisar">
         </form>   
     </main>
     <section>
             <h2>Estrutura da divisão</h2>
             <?php 
+
             // calculos
             $quociente= intdiv($dividendo, $divisor);
             $resta = $dividendo % $divisor;
-               
-
             ?>
             <table class ="divisao">
                 <tr>
